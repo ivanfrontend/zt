@@ -22,8 +22,6 @@ img{
     position: relative;
     min-height: 100%;
     padding: 23px 140px 70px 140px;
-    /*display: flex;*/
-    /*margin: 0px -5px;*/
 }
 
 .headerVrapp{
@@ -269,7 +267,7 @@ font-weight: bold;
 /*slaider*/
 
 .slaider{
-   padding: 15px 140px;
+   padding: 15px 140px 60px 140px;
 }
 
 .slaiderText{
@@ -326,6 +324,55 @@ width: 268px;
     position: absolute;
     right: -70px;
     top: 134px;
+}
+
+/*третий блок*/
+
+.section3{
+    background: url(../images/fon2.png) 100% 100%  no-repeat;
+    background-size: cover ;
+    padding-bottom: 12%;
+
+}
+
+.zagPriim{
+    text-align: center;
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    padding: 40px 0px 25px 0px;
+}
+
+.wrappPriim{
+    display: flex;
+}
+
+.blockPriim:first-child{
+    text-align: right;
+}
+
+.punktPriim:first-child {
+
+    text-align: justify;
+    display: inline-block;
+}
+.blockPriim{
+    flex: auto;
+}
+
+.punktPriim p{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.punktPriim p span{
+    padding: 0px 20px;
+}
+
+/*видео*/
+
+.section4Video{
+    padding: 38px 120px 50px 120px;
 }
 
 
