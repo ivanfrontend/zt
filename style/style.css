@@ -284,6 +284,10 @@ font-weight: bold;
     text-align: center;
 }
 
+.sl__text{
+  padding-bottom: 20px;
+}
+
 .sl__desc{
     text-align: center;
 }
@@ -310,6 +314,18 @@ font-weight: bold;
 width: 268px;
     height: 268px;
     text-align: center;
+}
+
+.lefts{
+    position: absolute;
+    left: -70px;
+    top: 134px;
+}
+
+.righets{
+    position: absolute;
+    right: -70px;
+    top: 134px;
 }
 
 

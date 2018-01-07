@@ -185,13 +185,18 @@
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    /*width: 20px;*/
+    /*height: 20px;*/
 
-    content: '•';
+    content: ' ';
     text-align: center;
-
-    opacity: .25;
+    width: 15px;
+    height:15px;
+    border: 2px solid #007f3a;
+    /*background-color: #007f3a;*/
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 1;
     color: black;
 
     -webkit-font-smoothing: antialiased;
@@ -199,6 +204,8 @@
 }
 .slick-dots li.slick-active button:before
 {
-    opacity: .75;
+    opacity: 1;
     color: black;
+    border: 2px solid #007f3a;
+    background-color: #007f3a;
 }
