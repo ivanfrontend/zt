@@ -1,0 +1,316 @@
+
+div, span, p{
+    padding: 0px;
+    margin: 0px;
+}
+button, a, input{
+    outline:none;
+}
+.nopading{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.oneDisplayFon{
+    background: url(../images/fon1.png) 100% 100%  no-repeat;
+    background-size: cover ;
+    /*height: 100vh;*/
+    position: relative;
+    min-height: 100%;
+    padding: 23px 140px 70px 140px;
+    /*display: flex;*/
+    /*margin: 0px -5px;*/
+}
+
+.headerVrapp{
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.vrappLogo {
+    flex: auto;
+}
+
+.vrappLogo , wrappPreimschestva{
+    display: flex;
+}
+
+.vrappLogo .logo{
+color: #007f3a;
+font-size: 48px;
+text-transform: uppercase;
+line-height: 48px;
+padding-right: 20px;
+}
+
+.vrappLogo .logo span{
+font-weight: bold;
+}
+
+.vrappLogo .textProd{
+    display: inline-block;
+    font-size: 16px;
+    color: #007f3a;
+    font-weight: 100;
+    letter-spacing: 1px;
+    width: 219px
+}
+
+.WrapTtelEndClookWork .telEndClookWork{
+    text-align: right;
+}
+
+.WrapTtelEndClookWork .telEndClookWork .tel{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.WrapTtelEndClookWork .telEndClookWork .cookWork{
+    font-size: 14px;
+}
+
+.wrappBigText{
+    margin-bottom: 45px;
+}
+
+.wrappBigText .bigText{
+    display: inline-block;
+    font-size: 42px;
+    font-weight: bold;
+    width: 48%;
+}
+
+.WrapTtelEndClookWork{
+   display: flex;
+}
+
+.wrappPreimschestva{
+    display: flex;
+    margin-bottom:60px ;
+}
+
+.wrappPreimschestva .Preimschestva{
+    display: flex;
+    /*flex: auto;*/
+    font-size: 18px;
+    color: #606061;
+
+}
+
+.formText{
+    padding-bottom: 30px;
+}
+
+.textPreimschestva{
+    display: inline-block;
+    width: 49%;
+    margin: 0px 10px;
+}
+
+.Wrappkrug .krug{
+    width: 16px;
+    height:16px;
+    border-radius: 50%;
+    background-color: #007f3a;
+    display: inline-block;
+    position: relative;
+    top:5px;
+}
+
+.wrappPreimschestva .Preimschestva span{
+    color: #000;
+}
+
+.form{
+    display: inline-block;
+    padding: 30px 25px;
+    border: 2px solid #007f3a;
+    background-color: #fff;
+    position: relative;
+}
+
+.form .wrappFormText{
+    display: flex;
+}
+.form .wrappFormText .BigText{
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+}
+
+.form .wrappFormText .minText{
+    font-size: 12px;
+    color: #000;
+    font-weight: 400;
+}
+
+.form .wrappFormText .skidka{
+
+}
+
+.form .wrappFormText .skidka .blokSkidki{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 210px;
+    right: -22px;
+}
+
+.skidka{
+    text-align: center;
+}
+
+.topSkidka{
+    text-decoration: line-through;
+}
+
+.topSkidka , .bottonSkidka{
+    position: relative;
+    top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.skidka span{
+    font-weight: normal;
+}
+
+.wrappInpyt{
+    padding-bottom: 25px;
+}
+
+/*.wrappInpyt font{*/
+
+/*}*/
+
+.wrappInpyt input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #7b7b7b;
+    color: #000;
+    transition: 1s;
+
+}
+
+.wrappInpyt input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000;
+}
+.wrappInpyt input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:     #000;
+}
+.wrappInpyt input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:     #000;
+}
+.wrappInpyt input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:     #000;
+}
+
+.wrappInpyt .inputCenter{
+    margin: 0px 10px;
+}
+
+.wrappInpyt input:focus{
+    border-bottom: 2px solid #007f3a;
+    transition: 1s;
+}
+
+.wrappInpyt button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 27px;
+    width: 256px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 26px;
+    margin-left: 10px;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(255,204,0,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(255,204,0,1);
+    box-shadow: 0px 0px 20px 3px rgba(255,204,0,1);
+    outline:none;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+}
+
+.numberOst{
+    display: flex;
+    position: relative;
+}
+
+.numberOst div{
+    flex: auto;
+    font-size: 14px;
+    font-weight: 900;
+    padding-left: 9px;
+}
+
+.numberOst span{
+    font-size: 30px;
+    color: #ffde00;
+    font-weight: 600;
+    position: absolute;
+    bottom: -7px;
+}
+
+.kolChel{
+    text-align: right;
+}
+
+
+/*slaider*/
+
+.slaider{
+   padding: 15px 140px;
+}
+
+.slaiderText{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Wrappmain{
+    max-width: 700px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.sl__desc{
+    text-align: center;
+}
+
+.main{
+
+}
+
+.slSlide{
+
+}
+
+.sl__desc{
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: #f0f0f0;
+    text-transform: uppercase;
+    width: 77%;
+    display: inline-block;
+}
+
+.slSlide img{
+width: 268px;
+    height: 268px;
+    text-align: center;
+}
+
+
+
