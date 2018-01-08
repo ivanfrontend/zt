@@ -1,5 +1,7 @@
-// $('.main').slick();
+console.log('123');
 
-console.log('test');
+$("#showForm").on("click", function(){
+	console.log('123');
+})
 
 
