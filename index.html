@@ -27,9 +27,10 @@
             </div>
         </div>
         <div class="wrappInpyt">
-            <form action="#">
+           <!--  <form action="#"> -->
+                <form action="mail.php" method="POST">
                 <input type="text" class="text" name="text" placeholder="Ваше имя"/>
-               <span class="errorTel"></span><input type="tel" class="tel2" name="tel" class="inputCenter" required placeholder="Ваш телефон"/>
+               <span class="errorTel"></span><input type="tel" id="phone1" class="tel2" name="tel" class="inputCenter" required placeholder="Ваш телефон"/>
                 <button class="buttonClass buttonClass2">Заказать шампунь и тоник Parusan</button>
             </form>
         </div>
@@ -101,9 +102,10 @@
             </div>
         </div>
         <div class="wrappInpyt">
-            <form action="#">
+            <form action="mail.php" method="post">
+            
                 <input type="text" class="text" name="text" placeholder="Ваше имя"/>
-                <span class="errorTel"></span><input type="tel" class="tel" name="tel" class="inputCenter" required placeholder="Ваш телефон"/>
+                <span class="errorTel"></span><input type="tel" id="phone" class="tel" name="tel" class="inputCenter" required placeholder="Ваш телефон"/>
                 <button class="buttonClass">Заказать шампунь и тоник Parusan</button>
             </form>
         </div>
@@ -185,7 +187,7 @@
 </video>
         </div>
         <div class="buttonForm"> 
-            <button id="showForm">Заказать шампунь и тоник Parusan</button>
+            <button id="showForm" class="qw1">Заказать шампунь и тоник Parusan</button>
         </div>
         
     </section>
@@ -194,6 +196,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/maskedinput.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/script.js"></script>
 <script>
@@ -206,9 +209,13 @@
         nextArrow: '<img class="righets" src="images/righets.png">'
     });
 
-//     $("#showForm").on("click", function(){
-//     console.log('123');
-// })
+jQuery(function($){
+   $("#phone").mask("+375(99) 999-99-99");
+   });
+
+jQuery(function($){
+   $("#phone1").mask("+375(99) 999-99-99");
+   });
 
 </script>
     </body>
